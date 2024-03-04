@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+       
+        <h1>Formulario</h1>
+        <fieldset>
+        <p> Dados pessoais </p>
+        <label for="iptnome">Nome:</label>
+        <input type="text" id="iptnome"><br><br> 
+
+
+        <label for="iptData de nascimento">Data de nascimento: </label>
+        <input type="date" id="Data de nascimento"><br><br> 
+
+
+        <label for="Endereço">Endereço</label>
+        <input type="address" id="Endereço"><br><br> 
+ 
+
+        <label for="Bairro">Bairro</label>
+        <input type="text" id="Bairro"> 
+
+        <label for="Cidade">Cidade</label>
+        <input type="text" id="Cidade"><br> <br> 
+
+
+        <label for="CEP">CEP</label>
+        <input type="number" id="CEP">
+
+        <label for="Estado">Estado</label>
+<select id="Estado" name="Estado">
+            <option value="ce">Ceara</option>
+            <option value="sp">São Paulo</option>
+            <option value="bh">Bahia</option>
+            </select>
+        </fieldset>
+        <fieldset>   <p> Dados profissionais</p>
+        <p> Natureza do cargo</p>
+            <input type="radio" id="Gerencia" name="fav_language" value="Gerencia">
+            <label for="Gerencia">Gerencia</label>
+            <input type="radio" id="Financeiro" name="fav_language" value="Financeiro">
+            <label for="Financeiro">Financeiro</label>
+            <input type="radio" id="Recepsão" name="fav_language" value="Recepsão">
+            <label for="">Recepsão</label>
+            <input type="radio" id="Administrativo" name="fav_language" value="Administrativo">
+            <label for="Administrativo">Administrativo</label>
+            <input type="radio" id="Juridico" name="fav_language" value="Juridico">
+            <label for="Juridico">Juridico</label> <br>
+            <p>Área de interesse</p>
+
+            <input type="radio" id="Computação" name="fav_language" value="Computação">
+            <label for="Computação">Computação</label>
+            <input type="radio" id="Quimica" name="fav_language" value="Quimica">
+            <label for="Quimica">Quimica</label>
+            <input type="radio" id="Meio Ambiente" name="fav_language" value="Meio Ambiente">
+            <label for="Meio Ambiente">Meio Ambiente</label>
+            <input type="radio" id="Engenharia" name="fav_language" value="Engenharia">
+            <label for="Engenharia">Engenharia</label>
+            <input type="radio" id="Matematica" name="fav_language" value="Matematica">
+            <label for="Matematica">Matematica</label> <br>
+        </fieldset>
+    </form>
+   
+</body>
+
+</html>
